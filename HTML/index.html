@@ -6,39 +6,39 @@
     <title>Architect</title>
     <link rel="stylesheet" href="../src/output.css">
 </head>
-<body>
-
-    <div class="flex bg-white fixed w-full h-12 justify-between px-5 shadow-lg items-center">
+<body >
+    <div class="sm:bg-red-500 md:bg-blue-500 lg:bg-purple-500 xl:via-orange-500 2xl:bg-green-500">
+    <div class="flex bg-white fixed w-full sm:h-12 justify-between px-5 shadow-lg items-center ">
     <div class="left">
-       <p><span class="font-bold">BR</span> Architects</p>
+       <p class="sm:hover:bg-slate-300 sm:cursor-pointer sm:px-3 sm:py-2 sm:text-xl"><span class="font-bold text-lg">BR</span> Architects</p>
     </div>
     <div >
-        <ul class="flex gap-12">
-            <li><a href="#" class="nav-link">Projects</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#contact" class="nav-link">Contacts</a></li>
+        <ul class="flex gap-12 sm:hidden sm:w-full md:flex">
+            <li><a href="#" class="sm:text-xl">Projects</a></li>
+            <li><a href="#about" class="sm:text-xl">About</a></li>
+            <li><a href="#contact" class="sm:text-xl">Contacts</a></li>
         </ul>
     </div>
 
     </div>
-    <div class="bg-mansion h-[650px] bg-cover bg-no-repeat text-center flex gap-2 items-center justify-center text-white text-[35px]">
+    <div class="bg-mansion h-[650px] sm:w-full sm:h-72 md:h-96 lg:h-[450px] xl:h-[520px] sm:bg-center bg-cover bg-no-repeat text-center flex gap-2 items-center justify-center text-white text-[35px]">
         <p class="bg-black bg-opacity-70 px-4 py-">BR</p>
-        <p class="arch">Architects</p>
+        <p class="sm:hidden md:flex">Architects</p>
     </div>
 
     <div>
         <p class="text-2xl px-10 pt-12 pb-4 font-semibold">Projects</p>
         <hr class="mx-10">
-        <div class="grid grid-cols-4 grid-rows-2 h-[72vh] my-8 mx-10 gap-x-3 gap-y-3">
+        <div class="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-rows-2 sm:grid-rows-8  md:grid-rows-4 md:h-fit sm:h-fit my-8 mx-10 sm:gap-x-3 sm:gap-y-3 lg:h-fit">
 
-            <div class="bg-house1 bg-cover bg-no-repeat bg-center"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Summer House</p></div>
-            <div class="bg-house2 bg-cover bg-no-repeat bg-center"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Brick House</p></div>
-            <div class="bg-house3 bg-cover bg-no-repeat bg-center"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Renovated</p></div>
-            <div class="bg-house4 bg-cover bg-no-repeat bg-center"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Barn House</p></div>
-            <div class="bg-house5 bg-cover bg-no-repeat bg-center"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Summer House</p></div>
-            <div class="bg-house6 bg-cover bg-no-repeat bg-center"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Brick House</p></div>
-            <div class="bg-house7 bg-cover bg-no-repeat bg-center"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Renovated</p></div>
-            <div class="bg-house8 bg-cover bg-no-repeat bg-center"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Barn House</p></div>
+            <div class="bg-house1 bg-cover bg-no-repeat bg-center sm:h-80"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Summer House</p></div>
+            <div class="bg-house2 bg-cover bg-no-repeat bg-center sm:h-80"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Brick House</p></div>
+            <div class="bg-house3 bg-cover bg-no-repeat bg-center sm:h-80"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Renovated</p></div>
+            <div class="bg-house4 bg-cover bg-no-repeat bg-center sm:h-80"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Barn House</p></div>
+            <div class="bg-house5 bg-cover bg-no-repeat bg-center sm:h-80"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Summer House</p></div>
+            <div class="bg-house6 bg-cover bg-no-repeat bg-center sm:h-80"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Brick House</p></div>
+            <div class="bg-house7 bg-cover bg-no-repeat bg-center sm:h-80"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Renovated</p></div>
+            <div class="bg-house8 bg-cover bg-no-repeat bg-center sm:h-80"><p class="bg-black text-white p-3 w-[140px] flex items-center justify-center">Barn House</p></div>
             
 
         </div>
@@ -46,59 +46,60 @@
     <div id="about">
         <p class="text-2xl px-10 pt-12 pb-4 font-semibold">About</p>
         <hr class="mx-10">
-        <p class="mx-10 my-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias voluptates voluptatum molestias consequuntur labore dolore, reiciendis nihil, molestiae dolorum beatae cupiditate! Ipsa esse reiciendis temporibus sequi ad eos ut odit.
+        <p class="mx-10 my-4 sm:text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias voluptates voluptatum molestias consequuntur labore dolore, reiciendis nihil, molestiae dolorum beatae cupiditate! Ipsa esse reiciendis temporibus sequi ad eos ut odit.
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus officiis dicta ad repudiandae laborum, recusandae optio enim rem saepe adipisci culpa nostrum natus nemo, excepturi fugit cupiditate! Et, aperiam dolores?
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, iste earum. Perspiciatis libero id delectus enim numquam, ipsam consequatur! Maxime in minima voluptatum natus laudantium incidunt sed quidem et nihil.
         </p>
-        <div class="grid h-[80vh] grid-cols-4 gap-x-3 mx-10 mt-10">
+        <div class="grid lg:h-fit sm:h-fit lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-x-3 mx-10 mt-10">
             <div class="grid grid-rows-2">
-                <div class="bg-profile1 bg-cover bg-no-repeat bg-center"></div>
+                <div class="bg-profile1 bg-cover bg-no-repeat bg-center sm:h-96"></div>
                 <div class=""><h2 class="font-bold text-2xl pb-2">John Doe</h2>
-                <p class="text-gray-500 pb-2">CEO & Founder</p>
-                <p class="pb-2">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p class="bg-slate-200 py-2 flex items-center justify-center hover:bg-slate-400">Contact</p>
+                <p class="text-gray-500 pb-2 sm:text-xl">CEO & Founder</p>
+                <p class="pb-2 sm:text-xl">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p class="bg-slate-200 py-2 flex items-center justify-center hover:bg-slate-400 sm:text-xl">Contact</p>
             </div>
         </div>
             <div class="grid grid-rows-2">
-                <div class="bg-profile2 bg-cover bg-no-repeat bg-center"></div>
+                <div class="bg-profile2 bg-cover bg-no-repeat bg-center sm:h-96"></div>
              <div class="">
                 <h2 class="font-bold text-2xl pb-2">Jane Doe</h2>
-                <p class="text-gray-500 pb-2">Architect</p>
-                <p class="pb-2">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p class="bg-slate-200 py-2 flex items-center justify-center hover:bg-slate-400">Contact</p>
+                <p class="text-gray-500 pb-2 sm:text-xl">Architect</p>
+                <p class="pb-2 sm:text-xl">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p class="bg-slate-200 py-2 flex items-center justify-center hover:bg-slate-400 sm:text-xl">Contact</p>
             </div></div>
-            <div class="grid grid-rows-2"><div class="bg-profile3 bg-cover bg-no-repeat bg-center"></div>
+            <div class="grid grid-rows-2"><div class="bg-profile3 bg-cover bg-no-repeat bg-center sm:h-96"></div>
         <div class="desc"><h2 class="font-bold text-2xl pb-2">Mike Ross</h2>
-                <p class="text-gray-500 pb-2">Architect</p>
-                <p class="pb-2">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p class="bg-slate-200 py-2 flex items-center justify-center hover:bg-slate-400">Contact</p>
+                <p class="text-gray-500 pb-2 sm:text-xl">Architect</p>
+                <p class="pb-2 sm:text-xl">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p class="bg-slate-200 py-2 flex items-center justify-center hover:bg-slate-400 sm:text-xl">Contact</p>
             </div></div>
-            <div class="grid grid-rows-2"><div class="bg-profile4 bg-cover bg-no-repeat bg-center"></div>
+            <div class="grid grid-rows-2"><div class="bg-profile4 bg-cover bg-no-repeat bg-center sm:h-96"></div>
         <div class="desc"><h2 class="font-bold text-2xl pb-2">Dan Star</h2>
-                <p class="text-gray-500 pb-2">Architect</p>
-                <p class="pb-2">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p class="bg-slate-200 py-2 flex items-center justify-center hover:bg-slate-400">Contact</p>
+                <p class="text-gray-500 pb-2 sm:text-xl">Architect</p>
+                <p class="pb-2 sm:text-xl">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p class="bg-slate-200 py-2 flex items-center justify-center hover:bg-slate-400 sm:text-xl">Contact</p>
             </div></div>
         </div>
     </div>
     <div id="contact">
         <p class="text-2xl px-10 pt-12 pb-4 font-semibold">Contact</p>
         <hr class="mx-10">
-        <p class="mx-10 my-4">Lets get in touch and talk about your next project.</p>
+        <p class="mx-10 my-4 sm:text-xl">Lets get in touch and talk about your next project.</p>
 
         <form action="">
-            <input type="text" class="border mx-10 my-2 py-2 pl-3 w-[1260px]" placeholder="Name"><br>
-            <input type="text" class="border mx-10 my-2 py-2 pl-3 w-[1260px]" placeholder="Email"><br>
-            <input type="text" class="border mx-10 my-2 py-2 pl-3 w-[1260px]" placeholder="Subject"><br>
-            <input type="text" class="border mx-10 my-2 py-2 pl-3 w-[1260px]" placeholder="Comment"><br>
+            <input type="text" class="border mx-10 my-2 py-2 pl-3 w-[1260px] sm:w-5/6" placeholder="Name"><br>
+            <input type="text" class="border mx-10 my-2 py-2 pl-3 w-[1260px] sm:w-5/6" placeholder="Email"><br>
+            <input type="text" class="border mx-10 my-2 py-2 pl-3 w-[1260px] sm:w-5/6" placeholder="Subject"><br>
+            <input type="text" class="border mx-10 my-2 py-2 pl-3 w-[1260px] sm:w-5/6" placeholder="Comment"><br>
             <input type="submit" class="border-none my-7 mx-10 bg-black text-white px-4 py-2" value="SEND MESSAGE">
         </form>
     
     </div>
     <div class="bg-map h-[90vh] mx-10 my-3"></div>
     <div class="w-full bg-black text-white h-[12vh] flex items-center justify-center">
-        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+        <p class="sm:text-xl">Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
     </div>
+</div>
     
 </body>
 </html>
